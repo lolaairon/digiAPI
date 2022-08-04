@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    color:rgb(62, 60, 60);
+    font-family: 'Roboto Flex', sans-serif;
+    font-family: 'Macondo', cursive;
+    font-family: 'Mouse Memoirs', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-family: 'Roboto Flex', sans-serif;
+   
+    
+
+}
+.mostrarDigi {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(/img/gondoOK2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    opacity: 0.8;
+
+}
+.logo img{
+    width: 25rem;
+    padding: 1rem 1rem;
+    z-index: 1;
+}
+.contenedorNombre{
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+   
+    
+    
+}
+.nombreDigi{
+    
+    width: 35rem;
+    height: 2.5rem;
+    padding: 0.2rem 0.7rem;
+    display: flex;
+    margin: 1rem auto ;
+    font-size: 1.5em;
+    box-shadow: 20px 20px 60px green;
+    border-radius: 5px;
+}
+.contenedorBtn{
+   
+    z-index: 1;
+    display: flex;
+    flex-direction: row; 
+    justify-content: center; 
+    width: 35rem;
+    height: 2.5rem;
+    padding: 0.3rem;
+    margin: auto ;
+}
+#btnDigi{
+    width: 6rem;
+    margin-right: 1.5rem;
+    background-color: #3a4ed5;
+    color: aliceblue;
+    font-size: 1.5em;
+    
+    border-radius: 5px;
+    
+   
+}
+#btnDigi:hover{
+    background-color: aliceblue;
+    color: #3a4ed5;
+}
+#btnBorrar{
+    width: 6rem;
+    background-color: #3a4ed5;
+    color: aliceblue;
+    font-size: 1.5em;
+    border-radius: 5px;
+   
+}
+#btnBorrar:hover{
+    background-color: aliceblue;
+    color: #3a4ed5;
+}
+.mostrar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+
+    
+   
+
+}
+.mostrar div{
+    padding: 3em;
+    background-color: #F2EB88;
+    margin: auto;
+    margin-top: 1rem;
+    height: 16rem;
+    width: 12rem;
+    border-radius: 10px;
+    box-shadow: 20px 20px 50px green;
+    line-height: 30px;
+    border: 15px solid #0396A6 ;
+    border-image: linear-gradient(to bottom, #F2EB88 0%, #F27F1B 100%) 1; ;
+
+    animation-name: spaceInDown;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+   
+}
+.mostrar img{
+   display: flex;
+   
+    width: 18em;
+    border-radius: 60px 0px 0px 60px ;
+    border: 5px groove #F2AE2E;
+    border-right: none;
+    padding-right: 1.7rem ;
+    background-color: white;
+   
+    
+}
+.mostrar h1{
+    margin-top: 8px;
+    
+   
+}
+.spaceInDown {
+    -webkit-animation-name: spaceInDown;
+    animation-name: spaceInDown;
+  }
+  @-webkit-keyframes spaceInDown {
+    0% {
+      opacity: 0;
+      -webkit-transform-origin: 50% 100%;
+      transform-origin: 50% 100%;
+      -webkit-transform: scale(0.2) translate(0%, 200%);
+      transform: scale(0.2) translate(0%, 200%);
+    }
+    100% {
+      opacity: 1;
+      -webkit-transform-origin: 50% 100%;
+      transform-origin: 50% 100%;
+      -webkit-transform: scale(1) translate(0%, 0%);
+      transform: scale(1) translate(0%, 0%);
+    }
+  }
+  @keyframes spaceInDown {
+    0% {
+      opacity: 0;
+      -webkit-transform-origin: 50% 100%;
+      transform-origin: 50% 100%;
+      -webkit-transform: scale(0.2) translate(0%, 200%);
+      transform: scale(0.2) translate(0%, 200%);
+    }
+    100% {
+      opacity: 1;
+      -webkit-transform-origin: 50% 100%;
+      transform-origin: 50% 100%;
+      -webkit-transform: scale(1) translate(0%, 0%);
+      transform: scale(1) translate(0%, 0%);
+    }
+  }

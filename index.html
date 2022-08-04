@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digi API</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Macondo&family=Mouse+Memoirs&family=Playfair+Display:ital@1&family=Plus+Jakarta+Sans:wght@200&family=Roboto+Flex:opsz,wght@8..144,200&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="mostrarDigi">
+    <div class="logo">
+        <img src="/img/pngwing.com (1).png" alt="logoDigimon">
+    </div>
+    <div class="contenedorNombre">
+        <input type="text" class="nombreDigi" id="nombreDigi" placeholder="Introduce el nombre del Digimon">
+         <div class="contenedorBtn">
+            <button type="submit" id="btnDigi" onclick="getDigi()" >Buscar!</button>
+            <button type="submit" id="btnBorrar" onclick="borrarDigi()">Eliminar!</button>
+        </div>
+    </div>
+    <div class="mostrar" id="mostrar"></div>
+    
+
+</div>
+    <script src="script.js"></script>
+</body>
+</html>
